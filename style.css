@@ -1,0 +1,144 @@
+
+
+@media only screen and (max-width: 400px){
+    body {
+        background-color: lightblue;
+        margin: 0px 2px;
+    padding: 0px 1.5px;
+      }
+      #ul_two{
+
+        background-color: rgb(247, 220, 204);
+        font-size: 16px;
+        text-align: center;
+        display: block;
+    }
+    .img_one{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    /* For mobile phones: */
+    body{
+        background-color: rgb(169, 192, 236);
+        width: 100%;
+        margin: 0px 2px;
+        padding: 0px 1.5px;
+    }
+    #ul_two{
+
+        background-color: rgb(247, 220, 204);
+        font-size: 16px;
+        text-align: center;
+        display: block;
+    }
+    .img_one{
+        display: block;
+    }
+  }
+
+  /* iPad generic layout */
+@media only screen and (device-width: 768px) {
+    body{ color: rgb(175, 175, 233);
+          margin: 0px 2px;
+          padding: 0px 1.5px;  }
+     #ul_two{
+
+            background-color: rgb(247, 220, 204);
+            font-size: 16px;
+            text-align: center;
+            display: block;
+        }
+        .img_one{
+            display: block;
+        }
+   }
+
+  /* iPad portrait layout */
+@media only screen and (min-device-width: 401px) and (max-device-width: 750px) and (orientation:portrait) {
+    body{ color:lavender;
+          margin: 0px 2px;
+          padding: 0px 1.5px;  }
+    #ul_two{
+
+            background-color: rgb(247, 220, 204);
+            font-size: 16px;
+            text-align: center;
+            display: block;
+        }
+        .img_one{
+            display: block;
+        }
+   }
+body{
+    background-color: rgb(169, 192, 236);
+    margin: 0px 2px;
+    padding: 0px 1.5px;
+}
+.h1_one{
+    margin: 1.5px;
+    padding: 1.2px;
+    font-family: cursive;
+    text-align: center;
+    
+}
+.h3_one{
+    margin: 5.5px;
+    padding: 22.2px;
+    font-family: cursive;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+.p_one{
+    background-color: rgb(194, 243, 243);
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#p_two{
+ color: red;
+}
+.Span_one{
+    color: rgb(36, 36, 90);
+    font-style: italic;
+}
+
+#ul_one{
+
+    background-color: rgb(241, 223, 200);
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+}
+#ul_two{
+
+    background-color: rgb(247, 220, 204);
+    font-size: 16px;
+    text-align: center;
+    display: block;
+}
+#ul_three{
+
+    background-color: rgb(194, 243, 243);
+    font-size: 16px;
+    margin: 10px 0px;
+    
+}
+ul:hover{
+    color:rgb(197, 60, 197);
+}
+li:hover{
+    color:rgb(235, 108, 108);
+}
+#ol_one{
+    background-color: rgb(201, 225, 245);
+    font-size: medium;
+}
+ol:hover{
+    color:rgb(149, 57, 235);
+}
+ul {
+    list-style-type: square;
+}
